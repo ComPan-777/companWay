@@ -1,553 +1,778 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <script
+      defer
+      src="node_modules/@popperjs/core/dist/umd/popper.min.js"
+    ></script>
+    <script
+      defer
+      src="node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ></script>
+    <script
+      defer
+      src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"
+    ></script>
+    <script
+      defer
+      src="node_modules/@fortawesome/fontawesome-free/js/solid.js"
+    ></script>
+    <script
+      defer
+      src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"
+    ></script>
+    <!-- <link rel="stylesheet" href="/assets/css/home.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-  <script defer src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-  <script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
-  <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
-  <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
-  <!-- <link rel="stylesheet" href="/assets/css/home.css"> -->
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <link rel="stylesheet" href="/assets/css/home.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
+    <!-- My Scripts -->
+    <script defer src="js/home.js"></script>
+    <!-- <script defer src="js/global_components.js"></script> -->
 
-  <!-- My Scripts -->
-  <script defer src="js/home.js"></script>
-  <!-- <script defer src="js/global_components.js"></script> -->
+    <!-- <link rel="stylesheet" href="/assets/css/global.css"> -->
+  </head>
 
-  <!-- <link rel="stylesheet" href="/assets/css/global.css"> -->
-</head>
+  <body class="bg-light">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="">
+          <img
+            src="./assets/img/logo-no-background.png"
+            alt="Jirel painting training company"
+          />
+        </a>
+        <button
+          class="navbar-toggler navbar-custom"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link-custom active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="projects.html"
+                >Projects</a
+              >
+            </li>
 
-<body class="bg-light">
-  <header>
-    <nav class="navbar navbar-expand-md navbar-light">
-      <a class="navbar-brand" href="">
-        <img src="assets/img/logo-154x149.png" alt="ArtWay Construction painting company" />
-      </a>
-      <button class="navbar-toggler navbar-custom" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link nav-link-custom active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-custom" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-custom" href="projects.html">Projects</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link nav-link-custom nav-link-contact" href="contactus.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <div class="container container-fluid">
-    <div class="row row-1">
-      <div class="background"></div>
-      <div class="col col-sm-9 col-md-7 col-lg-6 col-xl-5">
-        <div class="row">
-          <div class="title">
-            <h1 class="text-secondary bilbo-font">
-              ARTWAY <br />
-              Construction
-            </h1>
-            <i class="title_decoration"> </i>
-            <h6 class="title-quote">We are proud to be your painters</h6>
-          </div>
-        </div>
-        <div class="row form-row">
-          <div class="col-10">
-            <form>
-              <div class="form">
-                <input type="email" class="form-control" id="input" placeholder="name@example.com" />
-                <label for="input"></label>
-              </div>
-              <div class="form">
-                <input type="text" class="form-control" id="name" placeholder="Name" />
-                <label for="name"></label>
-              </div>
-              <div class="form">
-                <input type="tel" class="form-control" id="phone" placeholder="Phone number" pattern="[0-9]{1}" />
-                <label for="phone"></label>
-              </div>
-              <button class="btn col-12 btn-block btn-secondary text-light" type="submit">
-                GET ESTIMATE
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row about">
-
-      <div class="col">
-        <h2 class="section-title">Welcome To Artway Construction</h2>
-        <div class="content">
-          <h5> Who We are</h5>
-
-          &emsp;ARTWAY construction is a family owned and operated company. From the beginning of our foundation we have
-          done residential and commercial projects with different levels of complexity at the top quality! The key
-          goal of our work is to achieve high levels of customer satisfaction.
-          <br />
-          <br />
-
-          <h5>Why Us</h5>
-          <p>
-            &emsp;Our company offers a wide range of painting services and we have dedicated and experienced team of
-            painting
-            experts to handle your residential and commercial painting needs.</p>
-
-          <p>
-            &emsp;We transform our customer’s homes and businesses by providing expert painting service.
-            You deserve to enjoy your refreshed space!
-          </p>
-
-          <p>&emsp;For the best painting service available, contact ARTWAY Construction today.
-
-            We are fully licensed, insured and bonded and offer FREE estimates.
-
-            Free Estimates!
-
-            Call (206) 123 4567 Today!</p>
-        </div>
-
-      </div>
-
-    </div>
-    <div class="row services">
-      <div class="col">
-        <h2 class="section-title">Services we provide</h2>
-        <ul class="nav nav-pills align-self-center nav-fill nav-pills-custom" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-interior-tab" data-bs-toggle="pill"
-              data-bs-target="#pills-interior" type="button" role="tab" aria-controls="pills-interior"
-              aria-selected="true">
-              <i class="fas fa-paint-roller fa-2x"></i>
-              <span>Interior</span>
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-exterior-tab" data-bs-toggle="pill" data-bs-target="#pills-exterior"
-              type="button" role="tab" aria-controls="pills-exterior" aria-selected="true">
-              <i class="fas fa-home exteior-icon fa-2x"></i>
-              <span>Exterior</span>
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-commercial-tab" data-bs-toggle="pill" data-bs-target="#pills-commercial"
-              type="button" role="tab" aria-controls="pills-commercial" aria-selected="true">
-              <i class="fas fa-city fa-2x"></i>
-              <span>Commercial</span>
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-multi-family-tab" data-bs-toggle="pill"
-              data-bs-target="#pills-multi-family" type="button" role="tab" aria-controls="pills-multi-family"
-              aria-selected="true">
-              <i class="fas fa-building fa-2x"></i>
-              <span>Multi-Family</span>
-            </button>
-          </li>
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-interior" role="tabpanel"
-            aria-labelledby="pills-interior-tab">
-            <div class="description">
-              <div class="description-container">
-                <h5>Interior painting</h5>
-                OUR INTERIOR SERVICES INCLUDED:
-                <ul>
-                  <li>
-                    Preparation: caulking, filling and spackling, sanding,
-                    masking and covering surfaces
-                  </li>
-                  <li>Minor drywall repair</li>
-                  <li>Brush & roll, spray finish</li>
-                  <li>Painting walls & ceilings</li>
-                  <li>Painting trims and doors</li>
-                  <li>Paint kitchen and bathroom cabinets</li>
-                </ul>
-
-              </div>
-            </div>
-            <div id="carouselInterior" class="carousel slide carousel-fade " data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item one active">
-                </div>
-                <div class="carousel-item two">
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-exterior" role="tabpanel" aria-labelledby="pills-exterior-tab">
-            <div class="description">
-              <div class="description-container">
-                <h5>Exterior Painting</h5>
-                OUR EXTERIOR SERVICES INCLUDED:
-                <ul>
-                  <li>Preparation: caulking, scraping, sanding, priming</li>
-                  <li>Pressure wash</li>
-                  <li>Paint hardie, wood, vinyl, aluminum siding, stucco</li>
-                  <li>Paint exterior trim and door</li>
-                  <li>Apply solid, semi-solid and semi-transparent stain</li>
-                </ul>
-              </div>
-            </div>
-            <div id="carouselExterior" class="carousel slide carousel-fade" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item  one active">
-                </div>
-                <div class="carousel-item two">
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-commercial" role="tabpanel" aria-labelledby="pills-commercial-tab">
-            <div class="description">
-              <div class="description-container">
-                <h5>Commercial Painting</h5>
-                OUR COMMERCIAL PAINTING SERVICES:
-                <ul>
-                  <li>
-                    Exterior painting of commercial buildings, warehouses, etc
-                  </li>
-                  <li>Interior tenant improvements painting service</li>
-                  <li>Interior painting of restaurants and retail stores</li>
-                </ul>
-              </div>
-            </div>
-            <div id="carouselCommercial" class="carousel slide carousel-fade" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item  one active">
-                </div>
-                <div class="carousel-item two">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-multi-family" role="tabpanel" aria-labelledby="pills-multi-family-tab">
-            <div class="description">
-              <div class="description-container">
-                <h5>Multi-family Painting</h5>
-                WE ARE SKILLED IN MANY TYPES OF SPECIALTY PAINT JOBS, INCLUDING:
-                <ul>
-                  <li>Townhomes</li>
-                  <li>Condos</li>
-                  <li>Apartment complexes</li>
-                  <li>Multi-unit facilities</li>
-                  <li>Multi-story building</li>
-                </ul>
-              </div>
-            </div>
-
-            <div id="carouselMulti" class="carousel slide carousel-fade" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item  one active">
-                </div>
-                <div class="carousel-item two ">
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-
-    <div id="licenses" class="row licenses">
-      <div class="col">
-        <h2 class="section-title">We are licensed and inssured</h2>
-        <ul class="nav nav-pills nav-fill" id="pills-tab-licenses" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-license-tab" data-bs-toggle="pill" data-bs-target="#pills-license"
-              type="button" role="tab" aria-controls="pills-license" aria-selected="true">
-              <i class="license-icon"></i>
-              <span>License</span>
-            </button>
-          </li>
-          <li class="nav-item d-flex align-items-center" role="presentation">
-            <button class="nav-link" id="pills-insurance-tab" data-bs-toggle="pill" data-bs-target="#pills-insurance"
-              type="button" role="tab" aria-controls="pills-insurance" aria-selected="true">
-              <i class="license-icon"></i>
-              <span>Insurance</span>
-            </button>
-          </li>
-          <li class="nav-item d-flex align-items-center" role="presentation">
-            <button class="nav-link" id="pills-bonded-tab" data-bs-toggle="pill" data-bs-target="#pills-bonded"
-              type="button" role="tab" aria-controls="pills-bonded" aria-selected="true">
-              <i class="license-icon"></i>
-              <span>Bonded</span>
-            </button>
-          </li>
-        </ul>
-        <div class="tab-content bg-white" id="pills-tabContent-licenses">
-          <div class="tab-pane fade show active" id="pills-license" role="tabpanel" aria-labelledby="pills-license-tab">
-            <div class="description">
-              <h5>VERIFIED LICENSE</h5>
-              License # ARTWAC830D2 <br />
-              Status <span style="color: green">Active</span><br />
-              State Washington<br />
-
-              <a href="#" style="color: blueviolet">Verify</a> this license's
-              status for Artway Construction at the Washington State
-              Department of Labor & Industries.
-            </div>
-            <div class="d-flex">
-              <img class="m-auto" src="assets/img/licenses/license.png" alt="" />
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-insurance" role="tabpanel" aria-labelledby="pills-insurance-tab">
-            <div class="description">
-              <h5>INSURED</h5>
-              Insurer Ohio Security Ins Co Insured up to $1,000,000
-            </div>
-            <div class="d-flex">
-              <img class="m-auto" src="assets/img/licenses/insurance.png" alt="" />
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-bonded" role="tabpanel" aria-labelledby="pills-bonded-tab">
-            <div class="description">
-              <h5>BONDED</h5>
-              Bonded Agent Philadelphia Indemnity Ins Co Bond Value $6,000
-            </div>
-            <div class="d-flex">
-              <img class="m-auto" src="assets/img/licenses/bound.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-    <div class="row reviews">
-      <div class="col">
-        <h2 class="section-title">What our customers say</h2>
-        <div id="carouselExampleCaptions" class="carousel slide reviews-carousel" data-bs-ride="carousel"
-          data-bs-interval="false">
-
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="item-container">
-                <div class="review-container">
-                  <div class="review-header">
-                    <img src="assets/img/reviews/image1.jpeg" alt="">
-                    <div>
-                      <span class="name">Dima Savchenko</span>
-                      <br>
-
-                      <span class="stars"> &#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                      <br>
-                    </div>
-                  </div>
-                  <div class="review-body">
-
-                    <span class="text">Seriously, take my advice and benefit from the hard research and quoting I did.
-                      Artway Construction is as good as painting company in Seattle area. They are excellent
-                      communicators, prompt, efficient, and their paint job is exceptional. They painted the ceiling and
-                      doors in my house. I highly recommend these guys! Thank you</span>
-                  </div>
-                </div>
-                <div class="review-container">
-                  <div class="review-header">
-                    <img src="assets/img/reviews/image2.jpeg" alt="">
-                    <div>
-                      <span class="name">Dawn Weber</span>
-                      <br>
-                      <span class="stars"> &#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                      <br>
-                    </div>
-                  </div>
-                  <div class="review-body">
-
-                    <span class="text">Artway Construction did a great job painting the exterior of our large home on
-                      Bainbridge island. They were professional and prompt and have very competitive pricing. They were
-                      very informative in helping us select the appropriate type of exterior stain for the house and
-                      they completed the work quickly and efficiently while maintaining a high standard. The house looks
-                      beautiful. We HIGHLY recommend them and have recommended them to everyone in our
-                      neighborhood!</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="item-container">
-                <div class="review-container">
-                  <div class="review-header">
-                    <img src="assets/img/reviews/image3.jpeg" alt="">
-                    <div>
-                      <span class="name">Aleksei Butenko</span>
-                      <br>
-                      <span class="stars"> &#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                      <br>
-                    </div>
-                  </div>
-                  <div class="review-body">
-
-                    <span class="text">Had a chance to use this company for several times in short period of time. Can't
-                      be happier. Great customer service, super quality work. Will be definitely recommending them to
-                      all my friends who needs any paint work. Thank you</span>
-                  </div>
-                </div>
-                <div class="review-container">
-                  <div class="review-header">
-                    <img src="assets/img/reviews/image4.jpeg" alt="">
-                    <div>
-                      <span class="name">Cliff Smolinsky</span>
-                      <br>
-                      <span class="stars"> &#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                      <br>
-                    </div>
-                  </div>
-                  <div class="review-body">
-
-                    <span class="text">They did a fantastic job painting basically our entire first floor and much of
-                      our second floor. They painted all our trim, doors, walls, and ceilings, and the whole thing took
-                      less than a week! Our house looks amazing and we love it. They also stained our fences for us. The
-                      cost was also extremely reasonable. I would happily hire them again.</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="item-container">
-                <div class="review-container">
-                  <div class="review-header">
-                    <img src="assets/img/reviews/image5.jpeg" alt="">
-                    <div>
-                      <span class="name">Michael Simeona</span>
-                      <br>
-                      <span class="stars"> &#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                      <br>
-                    </div>
-                  </div>
-                  <div class="review-body">
-
-                    <span class="text">ARTWAY did a wonderful job painting the interior of my house including walls,
-                      ceilings, and trim. They helped me chose colors that complement one another, and I couldn't be
-                      more happy with the end result. The personnel was professional and genuine, and based on
-                      recommendations they made, I could tell quality is important to them.
-
-                      Often times I receive compliments about my interior paint and I would always recommend ARTWAY
-                      construction. I am very happy with the job they've done.</span>
-                  </div>
-                </div>
-                <div class="review-container">
-                  <div class="review-header">
-                    <img src="assets/img/reviews/image6.jpeg" alt="">
-                    <div>
-                      <span class="name">Jessica Diallo</span>
-                      <br>
-                      <span class="stars"> &#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                      <br>
-                    </div>
-                  </div>
-                  <div class="review-body">
-
-                    <span class="text">ArtWay did a wonderful job painting the exterior of our house. They
-                      were able to start on our house less than a week after we met them and only took three days to
-                      prep and paint. was really flexible and accommodating of changes we wanted to make after
-                      accepting the competitive estimate price. I requested quotes from three other companies in Seattle
-                      who wanted thousands more than ARTWAY Construction quoted. Our house looks beautiful - they did a
-                      really professional paint job. I would highly recommend ARTWAY construction!
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-
-
-        </div>
-
-
-
-      </div>
-    </div>
-
-
-
-
-
-    <div class="row map-section">
-      <div class="col">
-        <h2 class="section-title">We are on the map</h2>
-        <div id="google-maps-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10770.571699328315!2d-122.116543!3d47.555278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa77d41ac19c3ba4!2sARTWAY%20construction!5e0!3m2!1sen!2sus!4v1619124520117!5m2!1sen!2sus"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-3 col-sm-2 offset-1">
-          <h6>Links</h6>
-          <ul class="list-unstyled">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutus.html">About</a></li>
-            <li><a href="#">Sites</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link-custom nav-link-contact"
+                href="contactus.html"
+                >Contact</a
+              >
+            </li>
           </ul>
         </div>
-        <div class="col-8 col-sm-5 text-center">
-          <h6>Social</h6>
-          <a class="btn btn-social-icon btn-instagram" href="http://yelp.com/"><i class="fab fa-yelp fa-2x"></i>
-          </a>
-          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-              class="fab fa-facebook-f fa-2x"></i>
-          </a>
-          <a class="btn btn-social-icon btn-twitter" href="http://telegram.org/"><i
-              class="fab fa-telegram-plane fa-2x"></i></a>
-          <a class="btn btn-social-icon btn-google" href="http://linkedin.com/"><i
-              class="fab fa-linkedin-in fa-2x"></i></a>
+      </nav>
+    </header>
+
+    <div class="container container-fluid">
+      <div class="row row-1">
+        <div class="background"></div>
+        <div class="col col-sm-9 col-md-7 col-lg-6 col-xl-5">
+          <div class="row">
+            <div class="title">
+              <h1 class="text-secondary bilbo-font">
+                JIREL <br />
+                Painting
+              </h1>
+              <i class="title_decoration"> </i>
+              <h6 class="title-quote">
+                All kinds of painting works & training
+              </h6>
+            </div>
+          </div>
+          <div class="row form-row">
+            <div class="col-10">
+              <form>
+                <div class="form">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="input"
+                    placeholder="name@example.com"
+                  />
+                  <label for="input"></label>
+                </div>
+                <div class="form">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Name"
+                  />
+                  <label for="name"></label>
+                </div>
+                <div class="form">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="Phone number"
+                    pattern="[0-9]{1}"
+                  />
+                  <label for="phone"></label>
+                </div>
+                <button
+                  class="btn col-12 btn-block btn-secondary text-light"
+                  type="submit"
+                >
+                  GET ESTIMATE
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="col col-sm-4 text-center">
-          <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
-            1-206-555-1234</a><br />
-          <a role="button" class="btn btn-link" href="mailto:artwayconstruction@gmai.com"><i
-              class="far fa-envelope"></i>artwayconstruction@gmai.com</a>
+      </div>
+      <div class="row about">
+        <div class="col">
+          <h2 class="section-title">
+            Welcome To Jirel Painting & Training Center
+          </h2>
+          <div class="content">
+            <h5>Who We are</h5>
+
+            &emsp;Jirel painting is a family owned and operated company. From
+            the beginning of our foundation we have done residential and
+            commercial projects with different levels of complexity at the top
+            quality! Whether you're looking to refresh your home with a
+            professional touch or kickstart a career as a skilled painter, we’ve
+            got you covered.
+            <br />
+            <br />
+
+            <h5>Why Us</h5>
+            <p>
+              &emsp;<b>Quality You Can Trust:</b> Our reputation is built on
+              delivering exceptional results with attention to detail and a
+              commitment to customer satisfaction.
+            </p>
+
+            <p>
+              &emsp;<b>Empowering New Talent:</b> Our training isn’t just about
+              painting walls—it’s about creating opportunities. We believe in
+              nurturing talent and helping individuals build a successful career
+              in painting.
+            </p>
+
+            <p>
+              &emsp;For the best painting service, contact Jirel Painting today.
+              <strong>Free Estimates! Call 9851071972 Today!</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row services">
+        <div class="col">
+          <h2 class="section-title">Services we provide</h2>
+          <ul
+            class="nav nav-pills align-self-center nav-fill nav-pills-custom"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-interior-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-interior"
+                type="button"
+                role="tab"
+                aria-controls="pills-interior"
+                aria-selected="true"
+              >
+                <i class="fas fa-paint-roller fa-2x"></i>
+                <span>Interior</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-exterior-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-exterior"
+                type="button"
+                role="tab"
+                aria-controls="pills-exterior"
+                aria-selected="true"
+              >
+                <i class="fas fa-home exteior-icon fa-2x"></i>
+                <span>Exterior</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-commercial-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-commercial"
+                type="button"
+                role="tab"
+                aria-controls="pills-commercial"
+                aria-selected="true"
+              >
+                <i class="fas fa-city fa-2x"></i>
+                <span>Commercial</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-multi-family-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-multi-family"
+                type="button"
+                role="tab"
+                aria-controls="pills-multi-family"
+                aria-selected="true"
+              >
+                <i class="fas fa-building fa-2x"></i>
+                <span>Multi-Family</span>
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-interior"
+              role="tabpanel"
+              aria-labelledby="pills-interior-tab"
+            >
+              <div class="description">
+                <div class="description-container">
+                  <h5>Interior painting</h5>
+                  OUR INTERIOR SERVICES INCLUDED:
+                  <ul>
+                    <li>
+                      Preparation: caulking, filling and spackling, sanding,
+                      masking and covering surfaces
+                    </li>
+                    <li>Minor drywall repair</li>
+                    <li>Brush & roll, spray finish</li>
+                    <li>Painting walls & ceilings</li>
+                    <li>Painting trims and doors</li>
+                    <li>Paint kitchen and bathroom cabinets</li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                id="carouselInterior"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item one active"></div>
+                  <div class="carousel-item two"></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-exterior"
+              role="tabpanel"
+              aria-labelledby="pills-exterior-tab"
+            >
+              <div class="description">
+                <div class="description-container">
+                  <h5>Exterior Painting</h5>
+                  OUR EXTERIOR SERVICES INCLUDED:
+                  <ul>
+                    <li>Preparation: caulking, scraping, sanding, priming</li>
+                    <li>Pressure wash</li>
+                    <li>Paint hardie, wood, vinyl, aluminum siding, stucco</li>
+                    <li>Paint exterior trim and door</li>
+                    <li>Apply solid, semi-solid and semi-transparent stain</li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                id="carouselExterior"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item one active"></div>
+                  <div class="carousel-item two"></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-commercial"
+              role="tabpanel"
+              aria-labelledby="pills-commercial-tab"
+            >
+              <div class="description">
+                <div class="description-container">
+                  <h5>Commercial Painting</h5>
+                  OUR COMMERCIAL PAINTING SERVICES:
+                  <ul>
+                    <li>
+                      Exterior painting of commercial buildings, warehouses, etc
+                    </li>
+                    <li>Interior tenant improvements painting service</li>
+                    <li>Interior painting of restaurants and retail stores</li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                id="carouselCommercial"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item one active"></div>
+                  <div class="carousel-item two"></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-multi-family"
+              role="tabpanel"
+              aria-labelledby="pills-multi-family-tab"
+            >
+              <div class="description">
+                <div class="description-container">
+                  <h5>Multi-family Painting</h5>
+                  WE ARE SKILLED IN MANY TYPES OF SPECIALTY PAINT JOBS,
+                  INCLUDING:
+                  <ul>
+                    <li>Townhomes</li>
+                    <li>Condos</li>
+                    <li>Apartment complexes</li>
+                    <li>Multi-unit facilities</li>
+                    <li>Multi-story building</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                id="carouselMulti"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item one active"></div>
+                  <div class="carousel-item two"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="licenses" class="row licenses">
+        <div class="col">
+          <h2 class="section-title">We are licensed and inssured</h2>
+          <ul
+            class="nav nav-pills nav-fill"
+            id="pills-tab-licenses"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-license-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-license"
+                type="button"
+                role="tab"
+                aria-controls="pills-license"
+                aria-selected="true"
+              >
+                <i class="license-icon"></i>
+                <span>License</span>
+              </button>
+            </li>
+            <li class="nav-item d-flex align-items-center" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-insurance-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-insurance"
+                type="button"
+                role="tab"
+                aria-controls="pills-insurance"
+                aria-selected="true"
+              >
+                <i class="license-icon"></i>
+                <span>Insurance</span>
+              </button>
+            </li>
+            <li class="nav-item d-flex align-items-center" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-bonded-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-bonded"
+                type="button"
+                role="tab"
+                aria-controls="pills-bonded"
+                aria-selected="true"
+              >
+                <i class="license-icon"></i>
+                <span>Bonded</span>
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content bg-white" id="pills-tabContent-licenses">
+            <div
+              class="tab-pane fade show active"
+              id="pills-license"
+              role="tabpanel"
+              aria-labelledby="pills-license-tab"
+            >
+              <div class="description">
+                <h5>VERIFIED LICENSE</h5>
+                License # ARTWAC830D2 <br />
+                Status <span style="color: green">Active</span><br />
+                State Washington<br />
+
+                <a href="#" style="color: blueviolet">Verify</a> this license's
+                status for Artway Construction at the Washington State
+                Department of Labor & Industries.
+              </div>
+              <div class="d-flex">
+                <img
+                  class="m-auto"
+                  src="assets/img/licenses/license.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-insurance"
+              role="tabpanel"
+              aria-labelledby="pills-insurance-tab"
+            >
+              <div class="description">
+                <h5>INSURED</h5>
+                Insurer Ohio Security Ins Co Insured up to $1,000,000
+              </div>
+              <div class="d-flex">
+                <img
+                  class="m-auto"
+                  src="assets/img/licenses/insurance.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-bonded"
+              role="tabpanel"
+              aria-labelledby="pills-bonded-tab"
+            >
+              <div class="description">
+                <h5>BONDED</h5>
+                Bonded Agent Philadelphia Indemnity Ins Co Bond Value $6,000
+              </div>
+              <div class="d-flex">
+                <img
+                  class="m-auto"
+                  src="assets/img/licenses/bound.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row reviews">
+        <div class="col">
+          <h2 class="section-title">What our customers say</h2>
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide reviews-carousel"
+            data-bs-ride="carousel"
+            data-bs-interval="false"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="item-container">
+                  <div class="review-container">
+                    <div class="review-header">
+                      <img src="assets/img/reviews/image1.jpeg" alt="" />
+                      <div>
+                        <span class="name">Dima Savchenko</span>
+                        <br />
+
+                        <span class="stars">
+                          &#9733;&#9733;&#9733;&#9733;&#9733;</span
+                        >
+                        <br />
+                      </div>
+                    </div>
+                    <div class="review-body">
+                      <span class="text"
+                        >Seriously, take my advice and benefit from the hard
+                        research and quoting I did. Artway Construction is as
+                        good as painting company in Seattle area. They are
+                        excellent communicators, prompt, efficient, and their
+                        paint job is exceptional. They painted the ceiling and
+                        doors in my house. I highly recommend these guys! Thank
+                        you</span
+                      >
+                    </div>
+                  </div>
+                  <div class="review-container">
+                    <div class="review-header">
+                      <img src="assets/img/reviews/image2.jpeg" alt="" />
+                      <div>
+                        <span class="name">Dawn Weber</span>
+                        <br />
+                        <span class="stars">
+                          &#9733;&#9733;&#9733;&#9733;&#9733;</span
+                        >
+                        <br />
+                      </div>
+                    </div>
+                    <div class="review-body">
+                      <span class="text"
+                        >Artway Construction did a great job painting the
+                        exterior of our large home on Bainbridge island. They
+                        were professional and prompt and have very competitive
+                        pricing. They were very informative in helping us select
+                        the appropriate type of exterior stain for the house and
+                        they completed the work quickly and efficiently while
+                        maintaining a high standard. The house looks beautiful.
+                        We HIGHLY recommend them and have recommended them to
+                        everyone in our neighborhood!</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="item-container">
+                  <div class="review-container">
+                    <div class="review-header">
+                      <img src="assets/img/reviews/image3.jpeg" alt="" />
+                      <div>
+                        <span class="name">Aleksei Butenko</span>
+                        <br />
+                        <span class="stars">
+                          &#9733;&#9733;&#9733;&#9733;&#9733;</span
+                        >
+                        <br />
+                      </div>
+                    </div>
+                    <div class="review-body">
+                      <span class="text"
+                        >Had a chance to use this company for several times in
+                        short period of time. Can't be happier. Great customer
+                        service, super quality work. Will be definitely
+                        recommending them to all my friends who needs any paint
+                        work. Thank you</span
+                      >
+                    </div>
+                  </div>
+                  <div class="review-container">
+                    <div class="review-header">
+                      <img src="assets/img/reviews/image4.jpeg" alt="" />
+                      <div>
+                        <span class="name">Cliff Smolinsky</span>
+                        <br />
+                        <span class="stars">
+                          &#9733;&#9733;&#9733;&#9733;&#9733;</span
+                        >
+                        <br />
+                      </div>
+                    </div>
+                    <div class="review-body">
+                      <span class="text"
+                        >They did a fantastic job painting basically our entire
+                        first floor and much of our second floor. They painted
+                        all our trim, doors, walls, and ceilings, and the whole
+                        thing took less than a week! Our house looks amazing and
+                        we love it. They also stained our fences for us. The
+                        cost was also extremely reasonable. I would happily hire
+                        them again.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="item-container">
+                  <div class="review-container">
+                    <div class="review-header">
+                      <img src="assets/img/reviews/image5.jpeg" alt="" />
+                      <div>
+                        <span class="name">Michael Simeona</span>
+                        <br />
+                        <span class="stars">
+                          &#9733;&#9733;&#9733;&#9733;&#9733;</span
+                        >
+                        <br />
+                      </div>
+                    </div>
+                    <div class="review-body">
+                      <span class="text"
+                        >ARTWAY did a wonderful job painting the interior of my
+                        house including walls, ceilings, and trim. They helped
+                        me chose colors that complement one another, and I
+                        couldn't be more happy with the end result. The
+                        personnel was professional and genuine, and based on
+                        recommendations they made, I could tell quality is
+                        important to them. Often times I receive compliments
+                        about my interior paint and I would always recommend
+                        ARTWAY construction. I am very happy with the job
+                        they've done.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="review-container">
+                    <div class="review-header">
+                      <img src="assets/img/reviews/image6.jpeg" alt="" />
+                      <div>
+                        <span class="name">Jessica Diallo</span>
+                        <br />
+                        <span class="stars">
+                          &#9733;&#9733;&#9733;&#9733;&#9733;</span
+                        >
+                        <br />
+                      </div>
+                    </div>
+                    <div class="review-body">
+                      <span class="text"
+                        >ArtWay did a wonderful job painting the exterior of our
+                        house. They were able to start on our house less than a
+                        week after we met them and only took three days to prep
+                        and paint. was really flexible and accommodating of
+                        changes we wanted to make after accepting the
+                        competitive estimate price. I requested quotes from
+                        three other companies in Seattle who wanted thousands
+                        more than ARTWAY Construction quoted. Our house looks
+                        beautiful - they did a really professional paint job. I
+                        would highly recommend ARTWAY construction!
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row map-section">
+        <div class="col">
+          <h2 class="section-title">We are on the map</h2>
+          <div id="google-maps-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10770.571699328315!2d-122.116543!3d47.555278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa77d41ac19c3ba4!2sARTWAY%20construction!5e0!3m2!1sen!2sus!4v1619124520117!5m2!1sen!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
-</body>
 
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 col-sm-2 offset-1">
+            <h6>Links</h6>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="#">Sites</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-8 col-sm-5 text-center">
+            <h6>Social</h6>
+            <a class="btn btn-social-icon btn-instagram" href="http://yelp.com/"
+              ><i class="fab fa-yelp fa-2x"></i>
+            </a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              ><i class="fab fa-facebook-f fa-2x"></i>
+            </a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://telegram.org/"
+              ><i class="fab fa-telegram-plane fa-2x"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-google"
+              href="http://linkedin.com/"
+              ><i class="fab fa-linkedin-in fa-2x"></i
+            ></a>
+          </div>
+          <div class="col col-sm-4 text-center">
+            <a role="button" class="btn btn-link" href="tel:+12065551234"
+              ><i class="fa fa-phone"></i> 1-206-555-1234</a
+            ><br />
+            <a
+              role="button"
+              class="btn btn-link"
+              href="mailto:artwayconstruction@gmai.com"
+              ><i class="far fa-envelope"></i>artwayconstruction@gmai.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
