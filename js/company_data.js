@@ -6,27 +6,24 @@
 // <span> component inside the anchorn that will make this information active.
 // And add class="typeOfTheInformation"
 
-
-
-const email = "artwayconstrucion@email.com";
-const phone_number = "209-876-1234";
-const companyAddress = ` ArtWay Construction<br />Seattle, WA<br />U.S.A.`
+const email = 'rajujirel@jirelpainting.com.np';
+const phone_number = '+977 9851071972';
+const companyAddress = ` Sitapaila<br />Ramkot-6<br />Kathmandu,Nepal`;
 
 function fillDataField(htmlComponents, data, type) {
-    htmlComponents.forEach(component => {
-        component.innerHTML = data;
-        
-        //Change link in the parent element
-        if(type === 'phone') {
-            component.parentElement.href = "tel:" + data;
+  htmlComponents.forEach((component) => {
+    component.innerHTML = data;
 
-        }
-        if(type === 'email') {
-            component.parentElement.href = "mailto:" + data;
-        }
-    });
+    //Change link in the parent element
+    if (type === 'phone') {
+      component.parentElement.href = 'tel:' + data;
+    }
+    if (type === 'email') {
+      component.parentElement.href = 'mailto:' + data;
+    }
+  });
 }
 
-fillDataField(document.querySelectorAll(".email"), email, 'email');
-fillDataField(document.querySelectorAll(".phone"), phone_number, "phone");
-fillDataField(document.querySelectorAll(".address"), companyAddress);
+fillDataField(document.querySelectorAll('.email'), email, 'email');
+fillDataField(document.querySelectorAll('.phone'), phone_number, 'phone');
+fillDataField(document.querySelectorAll('.address'), companyAddress);
