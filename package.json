@@ -1,22 +1,11 @@
 {
-  "name": "artway",
+  "name": "companway",
   "version": "1.0.0",
-  "description": "Website for a painting company ArtWay Construction",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch ./assets/sass/:./assets/css/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kornatskyi/artway.git"
-  },
-  "author": "Bohdan Kornatskyi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kornatskyi/artway/issues"
-  },
-  "homepage": "https://github.com/kornatskyi/artway#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@popperjs/core": "^2.9.2",
